@@ -1,4 +1,69 @@
+
 h1 {
-  color: blue;
+  color: $grey;
   font-family: 'lao_sangam_mnregular';
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid $turq;
+  height: 25px;
+}
+.head-nav {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  .adress p {
+    margin: 5px;
+  }
+  .menu {
+    display: inline-flex;
+    a {
+      margin: 5px 5px;
+      font-size: 12px;
+      text-transform: uppercase;
+      &:hover {
+        border: none;
+      }
+    }
+    .lang {
+      height: 15px;
+    }
+  }
+  .input-group {
+    margin-right: 10px;
+    width: 140px;
+    height: 22px;
+    input, button {
+      box-shadow: none;
+      margin: 0;
+      padding: 8px;
+      height: 22px;
+      border-radius: 7px;
+    }
+    button {
+      padding: 2px 5px;
+    }
+  }
+  .form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  img.logo {
+  width: 270px;
+  height: 100%;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 15px;
+
 }

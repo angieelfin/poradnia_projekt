@@ -1,0 +1,172 @@
+@import 'mediaqueries/media-header';
+@import 'components/button';
+@import 'components/icons';
+@import 'text-slider';
+
+// import fontello icons
+@import 'icons/fontello';
+@import 'icons/fontello-ie7';
+@import 'icons/fontello-ie7-codes';
+@import 'icons/fontello-codes';
+@import 'icons/fontello-embedded';
+
+//services navigation styling
+.services-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: $base-margin 0;
+
+  p {
+    color: $grey;
+    font-weight: 400;
+    margin: $base-margin;
+  }
+
+  .phone-number {
+    color: $turquoise;
+  }
+}
+
+.register-nav {
+  display: inline-flex;
+  height: 2em;
+  margin-top: $base-margin;
+
+  a {
+    color: $grey;
+    font-size: $small-font;
+    font-weight: 400;
+    margin-top: $base-margin;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:after {
+      content: '/';
+      font-weight: 900;
+      margin: 0 $base-margin;
+    }
+  }
+
+  .register-link {
+    color: $turquoise;
+    text-decoration: none;
+  }
+}
+
+.language {
+  margin-bottom: $base-margin/2;
+  width: 15px;
+}
+
+.register-nav a.no-after:after {
+  content: ' ';
+}
+
+.search-group {
+  height: 22px;
+  margin-right: 4 * $base-margin;
+  margin-top: $base-margin/2;
+  width: 140px;
+
+  .form-search {
+    border-radius: 7px 0 0 7px;
+    box-shadow: none;
+    font-size: $small-font;
+    height: 22px;
+    margin: 0;
+    padding: 8px;
+
+    &:focus {
+      border-color: $turquoise;
+      outline: none;
+    }
+  }
+}
+
+.text-slider-js div {
+  position: absolute;
+}
+
+//logo
+.nav-logo {
+  display: flex;
+  justify-content: center;
+
+  .logo {
+    height: 100%;
+    margin-top: 4 * $base-margin;
+    width: 270px;
+  }
+}
+
+// main navigation styling
+.main-navigation {
+  display: flex;
+  font-size: $basic-font;
+  font-weight: 400;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-top: 8 * $base-margin;
+  padding: 0;
+  text-transform: uppercase;
+
+  .nav-item {
+    cursor: pointer;
+
+    &:hover {
+      border-bottom: 3px solid $turquoise;
+    }
+
+    a {
+      color: $grey;
+      padding-bottom: 4px;
+      text-decoration: none;
+    }
+
+    .location {
+      color: $turquoise;
+    }
+  }
+}
+
+// dropdown menu styling
+.drop-down-menu {
+  background-color: $dark-blue;
+  font-size: 14px;
+  margin-left: -70px;
+  margin-top: $base-margin;
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  width: 250px;
+
+  hr {
+    margin: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+.menu-item {
+  color: $white !important;
+}
+
+.drop-down-link:after {
+  content: ' \e800';
+  font-family: fontello;
+}
+
+.drop-down-link:focus ~ .drop-down-menu {
+  max-height: 300px;
+  padding: 10px;
+  transition: all .3s ease;
+}
+

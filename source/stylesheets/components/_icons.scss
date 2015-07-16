@@ -1,0 +1,17 @@
+// icons styling
+.icon-angle-down .location {
+  color: $turquoise;
+}
+
+.icon-search {
+  color: $white;
+}
+
+.icon-menu {
+  color: $dark-blue;
+  cursor: pointer;
+  display: none;
+  float: right;
+  font-size: 25px;
+  margin: 2 * $base-margin;
+}

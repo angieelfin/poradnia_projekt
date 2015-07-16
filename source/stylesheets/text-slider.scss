@@ -1,0 +1,69 @@
+.show {
+  position: relative;
+
+  .slide {
+    background-color: $white;
+    overflow: hidden;
+    position: absolute;
+    width: 200px;
+  }
+}
+
+.address1 {
+  animation: address1 10s infinite;
+  -o-animation: address1 10s infinite;
+  -moz-animation: address1 10s infinite;
+  -webkit-animation: address1 10s infinite;
+}
+
+@-webkit-keyframes address1 {
+  0% {opacity: .7;}
+  20% {opacity: 1;}
+  50% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@keyframes address1 {
+  0% {opacity: .7;}
+  20% {opacity: 1;}
+  50% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+@-moz-keyframes address1 {
+  0% {opacity: .7;}
+  20% {opacity: 1;}
+  50% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.address2 {
+  animation: address2 10s infinite;
+  -o-animation: address2 10s infinite;
+  -moz-animation: address2 10s infinite;
+  -webkit-animation: address2 10s infinite;
+}
+
+@-webkit-keyframes address2 {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@keyframes address2 {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes address2 {
+  00% {opacity: 0;}
+  50% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 1;}
+}

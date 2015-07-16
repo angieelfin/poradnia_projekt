@@ -1,0 +1,16 @@
+.search-button {
+  background-color: $turquoise;
+  border-color: $turquoise;
+  border-radius: 0 7px 7px 0;
+  height: 22px;
+  padding: 0 5px;
+  
+  &:hover,
+  &:active {
+    background-color: darken($turquoise, 10%);
+    border-color: $turquoise;
+  }
+  &:focus {
+    outline: none;
+  }
+}

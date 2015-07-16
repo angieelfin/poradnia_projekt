@@ -3,12 +3,6 @@
 @import 'components/icons';
 @import 'text-slider';
 
-// import fontello icons
-@import 'icons/fontello';
-@import 'icons/fontello-ie7';
-@import 'icons/fontello-ie7-codes';
-@import 'icons/fontello-codes';
-@import 'icons/fontello-embedded';
 
 //services navigation styling
 .services-nav {
@@ -111,25 +105,20 @@
   justify-content: space-between;
   list-style-type: none;
   margin-top: 8 * $base-margin;
+  margin-bottom: 4 * $base-margin;
   padding: 0;
   text-transform: uppercase;
-
-  .nav-item {
-    cursor: pointer;
-
+  height: 20px;
+  a {
+    color: $grey;
+    text-decoration: none;
+    padding-bottom: 4px;
     &:hover {
       border-bottom: 3px solid $turquoise;
     }
-
-    a {
-      color: $grey;
-      padding-bottom: 4px;
-      text-decoration: none;
-    }
-
-    .location {
-      color: $turquoise;
-    }
+  }
+  .location {
+    color: $turquoise;
   }
 }
 
@@ -144,6 +133,7 @@
   position: absolute;
   text-align: center;
   width: 250px;
+  z-index: 10;
 
   hr {
     margin: 10px;
@@ -157,6 +147,9 @@
 
 .menu-item {
   color: $white !important;
+  &:hover {
+    border: none !important; 
+  }
 }
 
 .drop-down-link:after {
@@ -169,4 +162,3 @@
   padding: 10px;
   transition: all .3s ease;
 }
-

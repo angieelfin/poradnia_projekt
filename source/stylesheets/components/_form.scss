@@ -1,0 +1,46 @@
+.form-box {
+  background-color: $turquoise;
+  height: 300px;
+  width: 100%;
+}
+
+.form-box-content {
+  h2 {
+    color: $white;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+}
+
+.form-column {
+
+  input {
+    border: 0;
+    border-radius: 7px;
+    box-shadow: none;
+    clear: both;
+    display: block;
+    margin: 7.5px 5px;
+    padding: 5px 10px;   
+    width: 285px;  
+  }
+
+  .input-message {
+    height: 120px;
+    padding-bottom: 90px;
+  }
+}
+
+.btn-submit {
+  float: left; 
+  font-size: $small-font;
+  margin: 2 * $base-margin $base-margin;
+  padding: 12px 35px;
+}
+
+.icon-mail {
+  margin-right: 2 * $base-margin;
+}

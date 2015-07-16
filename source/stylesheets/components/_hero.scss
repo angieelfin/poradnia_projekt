@@ -1,0 +1,42 @@
+.hero-indicators {
+  z-index: 1;
+
+  li {
+    border: 2px solid $white;
+    margin: 2 * $base-margin $base-margin/2 0;
+    padding: 5px;
+  }
+
+  .current-indicator {
+    margin-right: $base-margin/2;
+  }
+}
+
+.hero-caption {
+  margin-bottom: 50px;
+  
+  .btn-blue {
+    margin: 30px 0;
+    padding: 15px 45px;
+  }
+}
+
+.hero-heading {
+  font-size: $large-font;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero-paragraph {
+  font-size: $medium-font;
+  font-weight: 200;
+  margin: auto;
+  max-width: 80%;
+}
+
+.slider-control {
+  display: inline-block;
+  margin-top: -50px;
+  top: 50%;
+}

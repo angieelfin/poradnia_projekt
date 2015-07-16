@@ -1,0 +1,33 @@
+.sections {
+  text-align: center;
+
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blue-button,
+  .dark-blue-button {
+    font-size: $small-font;
+    padding: 12px 35px;
+    margin: 10px auto;
+  }
+}
+
+.section-content {
+  margin: 50px 0;
+
+}
+
+.section-heading {
+  text-transform: uppercase;
+  font-size: $medium-font;
+}
+
+.section-paragraph {
+  padding-bottom: 10px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

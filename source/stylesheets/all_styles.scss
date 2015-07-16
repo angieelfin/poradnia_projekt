@@ -1,4 +1,24 @@
-@import 'mediaqueries/media-header';
 @import 'variables';
+@import 'utilis';
+@import 'media';
+
+// media queries
+@import 'mediaqueries/media-header';
+@import 'mediaqueries/media-main-content';
+@import 'mediaqueries/media-form';
+
+// layout
 @import 'layout/header';
+@import 'layout/sections';
+
+// components
+@import 'components/hero';
+@import 'components/form';
 @import 'components/button';
+
+// import fontello icons
+@import 'icons/fontello';
+@import 'icons/fontello-ie7';
+@import 'icons/fontello-ie7-codes';
+@import 'icons/fontello-codes';
+@import 'icons/fontello-embedded';

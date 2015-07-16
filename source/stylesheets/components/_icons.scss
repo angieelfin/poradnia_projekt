@@ -12,6 +12,10 @@
   cursor: pointer;
   display: none;
   float: right;
-  font-size: 25px;
-  margin: 2 * $base-margin;
+  font-size: 30px;
+  margin: 2 * $base-margin 0;
+}
+
+.icon-large {
+  font-size: 100px;
 }

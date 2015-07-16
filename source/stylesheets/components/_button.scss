@@ -1,16 +1,59 @@
-.search-button {
+.btn-search {
   background-color: $turquoise;
   border-color: $turquoise;
   border-radius: 0 7px 7px 0;
   height: 22px;
   padding: 0 5px;
-  
+
   &:hover,
   &:active {
     background-color: darken($turquoise, 10%);
     border-color: $turquoise;
   }
+
   &:focus {
     outline: none;
+  }
+}
+
+.btn-blue {
+  background-color: $turquoise;
+  border-color: $turquoise;
+  border-radius: 10px;
+  color: $white;
+  font-size: $small-font;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 35px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($turquoise, 10%);
+    border-color: darken($turquoise, 10%);
+    box-shadow: none;
+    color: $white;
+  }
+}
+
+.btn-dark-blue {
+  background-color: $dark-blue;
+  border-radius: 10px;
+  border-color: $dark-blue;
+  color: $white;
+  font-size: $small-font;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 12px 35px;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($dark-blue, 10%);
+    border-color: darken($dark-blue, 10%);
+    box-shadow: none;
+    color: $white;
   }
 }

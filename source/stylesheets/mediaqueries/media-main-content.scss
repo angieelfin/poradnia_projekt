@@ -1,0 +1,94 @@
+@import 'variables';
+@import 'components/hero';
+
+// slider
+@media screen and (max-width: 990px) {
+  .hero-caption {
+    margin-bottom: $base-margin;
+    .btn-blue {
+      font-size: $small-font;
+      margin: 2 * $base-margin 0;
+      padding: 12px 35px;
+    }
+  }
+
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .hero-paragraph {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  .btn-blue,
+  .btn-dark-blue {
+    margin: 2 * $base-margin 0;
+  }
+
+  .hero-indicators {
+
+    li {
+      border: 1px solid $white;
+      margin: 2 * $base-margin $base-margin/2 0;
+      padding: 0;
+    }
+
+    .current-indicator {
+      height: 10px;
+      margin-right: $base-margin/2;
+      width: 10px;
+    }
+  }
+
+  .sections {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #carousel-hero {
+    margin-top: 20 * $base-margin;
+
+    .slide {
+      height: 200px;
+      width: 100%;
+    }
+  }
+
+  .hero-indicators {
+    padding: 0;
+
+    .current-indicator {
+      margin-right: $base-margin/2;
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  .hero-caption {
+    margin-bottom: $base-margin;
+  }
+
+  .hero-paragraph {
+    display: none;
+  }
+
+  .slide-arrow {
+    font-size: 50px;
+  }
+
+  .sections {
+    padding-top: 0;
+  }
+
+  .section-content {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-heading {
+    font-size: $mq-large-font;
+  }
+}

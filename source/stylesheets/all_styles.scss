@@ -6,10 +6,12 @@
 @import 'mediaqueries/media-header';
 @import 'mediaqueries/media-main-content';
 @import 'mediaqueries/media-form';
+@import 'mediaqueries/media-footer';
 
 // layout
 @import 'layout/header';
 @import 'layout/sections';
+@import 'layout/footer';
 
 // components
 @import 'components/hero';
